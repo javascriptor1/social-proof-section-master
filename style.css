@@ -24,7 +24,6 @@ main {
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
-  border: 2px solid red;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -111,7 +110,6 @@ h1 {
 
     main {
         justify-content: start;
-        border: 10px solid green;
         max-width: 90%;
     }
     .main__reviewers-desktop-div {
@@ -119,8 +117,6 @@ h1 {
     }
     .main__header-desktop-div {
         display: flex;
-        border: 2px red solid;
-        /* padding: 3rem; */
     }
     .main__stars-desktop-div {
         display: flex;
@@ -168,7 +164,6 @@ h1 {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        border: lime 2px solid;
       }
       .main__stars-desktop-div:nth-child(1) {
         justify-content: flex-start;
