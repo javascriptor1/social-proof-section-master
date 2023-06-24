@@ -106,7 +106,7 @@ h1 {
 }
 
 
-@media (min-width:900px){
+@media (min-width:1040px){
 
     main {
         justify-content: start;
