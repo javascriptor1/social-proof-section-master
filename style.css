@@ -105,74 +105,72 @@ h1 {
   line-height: 1.5;
 }
 
+@media (min-width: 1040px) {
+  main {
+    justify-content: start;
+    max-width: 90%;
+    margin: auto;
+  }
+  .main__reviewers-desktop-div {
+    display: flex;
+  }
+  .main__header-desktop-div {
+    display: flex;
+  }
+  .main__stars-desktop-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 
-@media (min-width:1040px){
+  .main__header-div {
+    text-align: left;
+  }
+  h1 {
+    width: 60%;
+    align-self: self-start;
+  }
+  .main__header-div p {
+    width: 79%;
+    align-self: self-start;
+  }
+  .main__reviewers-desktop-div {
+    display: flex;
+    width: 100%;
+    min-height: 280px;
+    gap: 1.5rem;
+  }
 
-    main {
-        justify-content: start;
-        max-width: 90%;
-    }
-    .main__reviewers-desktop-div {
-        display: flex;
-    }
-    .main__header-desktop-div {
-        display: flex;
-    }
-    .main__stars-desktop-div {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
-    .main__star-rating-div {
-        min-width: 40%;
-      }
-      .main__header-div {
-        text-align: left;
-      }
-      h1 {
-        width: 50%;
-        align-self: self-start;
-    }
-    .main__header-div p {
-        width: 58%;
-        align-self: self-start;
-       
-      }
-      .main__reviewers-desktop-div {
-        display: flex;
-        width: 100%;
-        min-height: 280px;
-        gap: 2rem;
-      }
+  .reviewer-div {
+    max-width: 340px;
+    max-height: 230px;
+  }
 
-      .reviewer-div {
-        max-width: 340px;
-        max-height: 230px;
-      }
-      
-      .main__reviewers {
-        display: flex;
-      }
-      .div2{
-        align-self: center;
-      }
-     .div3{
-        align-self: flex-end;
-     }
+  .main__reviewers {
+    display: flex;
+  }
+  .div2 {
+    align-self: center;
+  }
+  .div3 {
+    align-self: flex-end;
+  }
 
-     .main__star-rating-div {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-      }
-      .main__stars-desktop-div:nth-child(1) {
-        justify-content: flex-start;
-      }
-      .main__stars-desktop-div:nth-child(2) {
-        justify-content: center;
-      }
-      .main__stars-desktop-div:nth-child(3) {
-        justify-content: flex-end;
-      }
-      
+  .main__star-rating-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 40%;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  .main__stars-desktop-div:nth-child(1) {
+    justify-content: flex-start;
+  }
+  .main__stars-desktop-div:nth-child(2) {
+    justify-content: center;
+  }
+  .main__stars-desktop-div:nth-child(3) {
+    justify-content: flex-end;
+  }
 }
